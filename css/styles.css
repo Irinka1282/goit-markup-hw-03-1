@@ -212,6 +212,10 @@ p {
   gap: 30px;
 }
 /* Work */
+
+.work-section {
+  padding-top: 0;
+}
 .work {
   padding-top: 0;
 }
@@ -235,7 +239,7 @@ img {
 }
 
 /* Команда */
-.team {
+.color-team {
   background-color: #f5f4fa;
 }
 
@@ -310,10 +314,14 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.margin {
+  display: block;
+  margin-bottom: 9px;
+}
 .addres-link {
   color: #ffffff;
   display: block;
-  margin-bottom: 9px;
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -322,7 +330,7 @@ img {
 }
 .mailto-link {
   display: block;
-  margin-bottom: 9px;
+
   color: var(--secondary-text-color);
   font-style: normal;
   font-size: 14px;
@@ -347,11 +355,6 @@ img {
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
-}
-
-.contacts-footer {
-  display: block;
-  margin-bottom: 9px;
 }
 
 /* Portfolio */
@@ -464,13 +467,12 @@ img {
 
 .link-title {
   padding: 20px 24px;
-  border-left: 1px;
-  border-bottom: 1px;
-  border-right: 1px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .title {
-  /* margin-left: 24px; */
-  /* margin-bottom: 4px; */
+  margin-bottom: 4px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
